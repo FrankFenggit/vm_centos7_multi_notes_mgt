@@ -42,7 +42,7 @@ docker run -p 3306:3306 --name mysql5.7-3306 \
 ```bash
 #一种方法是：ulimit -c unlimited
 #但是这种方法是暂时的，你每打开一次终端都要输一次
-ulimit -c unlimited &&
+ulimit -c &&
 cat /proc/sys/kernel/core_pattern /etc/sysctl.conf /proc/sys/kernel/core_uses_pid
 
 #另一种方法是：修改//etc/security/limits.conf  修改 soft core 
