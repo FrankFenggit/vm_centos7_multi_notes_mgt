@@ -390,8 +390,14 @@ license:apache-2.0 spring cloud
 | ---------- | --------------------------------------------- | ---- |
 | chrome插件 | https://github.com/underway2014/github-search |      |
 
-## [gdb](https://github.com/FrankFenggit/vm_centos7_multi_notes_mgt/tree/master/gdb)
+# [GDB](gdb)
+
+## [配置](gdb/conf)
+
+目前测试可以打印stl 中map等等
 
 # [VisualBox](VisualBox)
 
 ## [UBUNTU安装教程](VisualBox/UBUNTU.md)
+
+# [VSCode配置文件](.vscode)
